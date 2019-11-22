@@ -14,11 +14,11 @@
 # In[7]:
 
 
-#import time
+import time
 def threeSumClosest(nums, target):
     if(len(nums) < 3):
         return 0
-    #tic = time.clock()
+    tic = time.clock()
     nums.sort()
     closest = nums[0] + nums[1] + nums[2]
     i = 0
@@ -38,8 +38,8 @@ def threeSumClosest(nums, target):
                 j += 1
        
         i += 1
-    #toc = time.clock()
-    #print(toc - tic)
+    toc = time.clock()
+    print(toc - tic)
     return closest
 
 
