@@ -27,14 +27,14 @@
 def isPalindrome(nums):
     nums = str(nums)
     res = False
-    revnums = str()
+    revernums = str()
     if nums[0] == '-':
         res = False
 
     else:
-        revnums = nums[len(nums)::-1]
+        revernums = nums[len(nums)::-1]
     
-    if revnums ==nums:
+    if revernums ==nums:
         res = True
     
     return res
