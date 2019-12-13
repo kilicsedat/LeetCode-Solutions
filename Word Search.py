@@ -30,8 +30,10 @@ def findChr(board, strng):
         if a <= 0:
             print(False)
             break
+            
         else:
             continue
+            
         return True
 
 
