@@ -25,9 +25,9 @@
 # In[3]:
 
 
-def defangIPaddr(address):
-    address = address.replace(".", "[.]")
-    return address
+def defangIPaddr(addresss):
+    addresss = addresss.replace(".", "[.]")
+    return addresss
 
 
 # In[4]:
