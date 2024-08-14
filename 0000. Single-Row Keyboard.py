@@ -25,7 +25,7 @@ def singlerowkyeb(strng):
     keyboard = "abcdefghijklmnopqrstuvwxyz"
     c = 0
     d = 0
-    for i in range (len(strng)):
+    for i in range (len(string)):
         if i == 0:
             d = abs(keyboard.index(strng[i]))
         else:
